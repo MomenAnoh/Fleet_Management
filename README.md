@@ -75,12 +75,12 @@
     * **مثال للاستجابة (JSON):**
         ```json
         {
-            "token": "eyJ..." // رمز JWT المميز
+            "token": "eyJ..." 
         }
         ```
     * **رموز الحالة:**
         * 200 OK: تم تسجيل الدخول بنجاح.
-        * 401 Unauthorized: بيانات اعتماد غير صحيحة.
+                                                                                                                                                                                         بيانات اعتماد غير صحيحة. : 400  * 
 
 * **POST /api/register:** تسجيل مستخدم جديد.
     * **المعاملات:**
@@ -273,7 +273,7 @@
         ```json
         [
             { "seat_number": 1, "status": "available" },
-            { "seat_number": 2, "status": "booked" },
+           
             // ...
         ]
 ## رابط مخطط قاعدة البيانات 
@@ -286,3 +286,4 @@ https://drive.google.com/file/d/1NMr54sexuw90gi-W-ozuL2vBD-TKMJxb
 ## معلومات إضافية
 
 *   Devolper: [Momen Ahmed]
+*   Company: [Smart Technology Solutions ]
